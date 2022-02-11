@@ -156,6 +156,7 @@ body {
 }
 
 .rc {
+    text-align: center;
     margin: 0;
     padding-right: 5%;
     width: 54%;
@@ -168,3 +169,21 @@ body {
     height: 100%;
     border-radius: 3px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="lc"] {
+      width: 100%;
+    }
+    [class*="rc"] {
+        width: 92%;
+        padding-left: 1%;
+      }
+      [class*="fimg"] {
+        width:115%;
+        height: 80%;
+        margin-top: 2rem;
+        margin-left: 0;
+        padding-left: 0;
+      }
+  }
